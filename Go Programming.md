@@ -30,3 +30,8 @@ func main() {
 * The first declaration does not allocate memory if the slice is not used, so this declaration method is preferred.
 
 
+###3. Does Go support type inheritance?
+
+* No support for type inheritance.
+
+
