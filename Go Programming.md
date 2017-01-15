@@ -34,4 +34,8 @@ func main() {
 
 * No support for type inheritance.
 
+###4. Does Go support operator overloading?
+* No support for operator overloading.
+
+
 
