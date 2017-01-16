@@ -38,4 +38,12 @@ func main() {
 * No support for operator overloading.
 
 
+###5. Does Go support method overloading?
+* No support for method overloading.
+
+
+
+
+
+
 
