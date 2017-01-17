@@ -43,6 +43,18 @@ func main() {
 
 
 
+###6. Does Go support pointer arithmetics?
+* No support for pointer arithmetic.
+
+
+
+
+
+
+
+
+
+
 
 
 
