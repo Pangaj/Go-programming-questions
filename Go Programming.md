@@ -50,8 +50,8 @@ func main() {
 
 
 
-
-
+###7. Is Go a case sensitive language?
+* Yes! Go is a case sensitive programming language.
 
 
 
