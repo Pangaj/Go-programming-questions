@@ -55,6 +55,21 @@ func main() {
 
 
 
+###8. What is static type declaration of a variable in Go?
+* Static type variable declaration provides assurance to the compiler that there is ***one variable existing with the given type and name*** so that compiler proceed for **further compilation without needing complete detail** about the variable. 
+* A **variable declaration has its meaning at the time of compilation only**, compiler needs actual variable declaration at the **time of linking** of the program.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
