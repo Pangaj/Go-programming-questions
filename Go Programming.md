@@ -60,8 +60,9 @@ func main() {
 * A **variable declaration has its meaning at the time of compilation only**, compiler needs actual variable declaration at the **time of linking** of the program.
 
 
-
-
+###9. What is dynamic type declaration of a variable in Go?
+* A dynamic type variable declaration requires ***compiler to interpret the type of variable based on value passed to it***.
+* *Compiler don't need a variable* to have **type statically as a necessary requirement**.
 
 
 
