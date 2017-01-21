@@ -1,8 +1,10 @@
 ### 1. How do you swap two values?
 * Two values are swapped as easy as this:
-    ```a, b = b, a```
+   
+   ```a, b = b, a```
 
 * To swap three values, we would write:
+    
     ```a, b, c = b, c, a```
 
 * The swap operation in Go is guaranteed from side effects. The values to be assigned are guaranteed to be stored in temporary variables before starting the actual assigning, so the order of assignment does not matter. The result of the following operation: ```a := 1; b := 2; a, b, a = b, a, b``` is still ```a = 2``` and ```b = 1```, without the risk of changing the value ```a``` to the new re-assigned value. This is useful to rely on in many algorithm implementations.
@@ -53,6 +55,7 @@ func main() {
 
 ###10. Can you declared multiple types of variables in single declaration in Go?
 * Yes Variables of different types can be declared in one go using type inference.
+
 ```var a, b, c = 3, 4, "foo"```
 
 
