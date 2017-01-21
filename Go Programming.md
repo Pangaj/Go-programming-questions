@@ -1,5 +1,4 @@
 ### 1. How do you swap two values?
-
 * Two values are swapped as easy as this:
     ```a, b = b, a```
 
@@ -26,45 +25,35 @@ func main() {
 ```
 
 ### 2. What is the difference, if any, in the following two slice declarations, and which one is more preferable?```var a []int``` and ```a := []int{}```
-
 * The first declaration does not allocate memory if the slice is not used, so this declaration method is preferred.
 
 
 ###3. Does Go support type inheritance?
-
 * No support for type inheritance.
 
 ###4. Does Go support operator overloading?
 * No support for operator overloading.
 
-
 ###5. Does Go support method overloading?
 * No support for method overloading.
-
-
 
 ###6. Does Go support pointer arithmetics?
 * No support for pointer arithmetic.
 
-
-
-
-
 ###7. Is Go a case sensitive language?
 * Yes! Go is a case sensitive programming language.
-
-
 
 ###8. What is static type declaration of a variable in Go?
 * Static type variable declaration provides assurance to the compiler that there is ***one variable existing with the given type and name*** so that compiler proceed for **further compilation without needing complete detail** about the variable. 
 * A **variable declaration has its meaning at the time of compilation only**, compiler needs actual variable declaration at the **time of linking** of the program.
 
-
 ###9. What is dynamic type declaration of a variable in Go?
 * A dynamic type variable declaration requires ***compiler to interpret the type of variable based on value passed to it***.
 * *Compiler don't need a variable* to have **type statically as a necessary requirement**.
 
-
+###10. Can you declared multiple types of variables in single declaration in Go?
+* Yes Variables of different types can be declared in one go using type inference.
+```var a, b, c = 3, 4, "foo"```
 
 
 
