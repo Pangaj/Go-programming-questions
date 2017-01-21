@@ -56,7 +56,7 @@ func main() {
 ###10. Can you declared multiple types of variables in single declaration in Go?
 * Yes Variables of different types can be declared in one go using type inference.
 
-```var a, b, c = 3, 4, "foo"```
+   ```var a, b, c = 3, 4, "foo"```
 
 
 
