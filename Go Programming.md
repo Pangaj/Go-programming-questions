@@ -58,7 +58,14 @@ func main() {
 
    ```var a, b, c = 3, 4, "foo"```
 
-
+###11. How to print type of a variable in Go?
+* ```%T``` is used to print the type of the variable
+```
+var a, b, c = 3, 4, "foo"
+fmt.Printf("a is of type %T\n", a)
+fmt.Printf("b is of type %T\n", b)
+fmt.Printf("c is of type %T\n", c)
+```
 
 
 
