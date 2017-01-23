@@ -68,7 +68,16 @@ func main() {
    fmt.Printf("c is of type %T\n", c)
    ```
 
+###12. What is a pointer?
+* It's a pointer variable which can hold the address of a variable.
 
+   ```
+   var x = 5
+   var p *int
+   p = &x
+   fmt.Printf("x = %d", *p)
+   ```
+* Here x can be accessed by *p.
 
 
 
