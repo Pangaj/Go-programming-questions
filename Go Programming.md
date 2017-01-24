@@ -59,7 +59,7 @@ func main() {
    ```var a, b, c = 3, 4, "foo"```
 
 ###11. How to print type of a variable in Go?
-* ```%T``` is used to print the type of the variable
+* ```%T``` is used to print the type of a variable
    
    ```
    var a, b, c = 3, 4, "foo"
