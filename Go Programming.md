@@ -69,7 +69,7 @@ func main() {
    ```
 
 ###12. What is a pointer?
-* It's a pointer variable which can hold the address of a variable.
+* It's a pointer variable which can hold the address of the variable.
 
    ```
    var x = 5
