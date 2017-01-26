@@ -54,7 +54,7 @@ func main() {
 * *Compiler don't need a variable* to have **type statically as a necessary requirement**.
 
 ###10. Can you declared multiple types of variables in single declaration in Go?
-* Yes Variables of different types can be declared in one go using type inference.
+* Yes, Variables of different types can be declared in one go using type inference.
 
    ```var a, b, c = 3, 4, "foo"```
 
