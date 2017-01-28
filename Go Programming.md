@@ -28,8 +28,6 @@ func main() {
 
 ### 2. What is the difference, if any, in the following two slice declarations, and which one is more preferable?```var a []int``` and ```a := []int{}```
 * The first declaration does not allocate memory if the slice is not used, so this declaration method is preferred.
-
-
 ###3. Does Go support type inheritance?
 * No support for type inheritance.
 
